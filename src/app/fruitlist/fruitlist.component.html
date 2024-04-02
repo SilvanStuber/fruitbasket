@@ -18,7 +18,7 @@
           <img src="./assets/img/stars/star-empty.svg" alt="" srcset="" />
           } } }
 
-          <p>({{ fruit.stars }})</p>
+          <p [ngStyle]="{'color': fontColor}">({{ fruit.stars }})</p>
         </div>
       </div>
       <div><b>Art:</b><br />{{ fruit.genus }}</div>
