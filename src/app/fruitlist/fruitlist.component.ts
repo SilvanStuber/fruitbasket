@@ -9,7 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './fruitlist.component.scss',
 })
 export class FruitlistComponent {
-  fontColor = 'green'
+  fontColorGood = 'green';
+  fontColorBad = 'red';
+  
 
   fruitlist = [
     {
@@ -20,7 +22,7 @@ export class FruitlistComponent {
       genus: 'Kernobstgewächsen innerhalb der Familie der Rosengewächse',
       stars: 2.3,
       reviews: [
-        { name: 'Kevin W.', text: '' },
+        { name: 'Kevin W.', text: 'top' },
         { name: 'Arne P.', text: 'nicht so meins' },
       ],
     },
